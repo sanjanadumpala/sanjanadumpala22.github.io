@@ -77,13 +77,13 @@ body {
 
 .test .leftar {
     float: left;
-    padding-top: 12%;
+    padding-top: 9%;
     padding-left: 8%;
 }
 
 .test .rightar {
     float: right;
-    padding-top: 12%;
+    padding-top: 9%;
     padding-right: 8%;    
 }
 
