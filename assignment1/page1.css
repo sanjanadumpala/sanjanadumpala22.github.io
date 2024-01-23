@@ -1,0 +1,162 @@
+body {
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    margin: 0%;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: fixed;
+    margin: 0%;
+}
+
+.topnav .index {
+    padding-left: 15%;
+    padding-right: 5%;
+    width: 80%;
+}
+
+.topnav .index a {
+    color: black;
+    text-decoration: none;
+    padding-left: 12%;
+}
+
+.topnav .index a.active {
+    color: #b09454;
+}
+
+.topnav .heading {
+    width: 20%;
+    overflow: hidden;
+    color: #b09454;
+    padding-left: 10%;
+}
+
+.front {
+    background-image: url('image3.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    background-attachment: fixed;
+}
+
+.wrap {
+    padding: 6% 6% 6% 6%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services {
+    background-image: url("flower.png");
+    background-position: center;
+    padding: 7.8% 4% 7.8% 4%;
+    color: white;
+    width: 23%;
+}
+
+.img {
+    
+}
+
+.test {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 6%;
+}
+
+.test .leftar {
+    float: left;
+    padding-top: 12%;
+    padding-left: 8%;
+}
+
+.test .rightar {
+    float: right;
+    padding-top: 12%;
+    padding-right: 8%;    
+}
+
+.gallery {
+    background-image: url("image2.png");
+    background-attachment: fixed;
+    background-size: contain;
+    height: 685px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 6%;
+    display: flex;
+}
+
+.gallery .block {
+    background-image: url("flower.png");
+    background-position: center;
+    float: right;
+    margin: 7% 7% 7% 67%;
+    color: white;
+    padding: 6% 4% 6% 4%;
+    text-align: center;
+}
+
+.button2 {
+    border: 1px solid white;
+    background-color: transparent;
+    overflow: hidden;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: small;
+}
+
+.button {
+    border: 1px solid white;
+    background-color: transparent;
+    overflow: hidden;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: small;
+}
+
+.add {
+    background-image: url("flower.png");
+    color: white;
+    padding: 5%;
+    margin: 6%;
+    margin-bottom: 3%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-size: smaller;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.solid {
+    margin: 1%;
+    color: white;
+}
+
+.add .info {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.add .book {
+    padding: 2%;
+}
