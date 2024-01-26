@@ -1,19 +1,19 @@
 body {
     font-family:  Georgia, 'Times New Roman', Times, serif;
     margin: 0%;
+    width: 1239px;
 }
 
 .topnav {
-    overflow: hidden;
     background-color: white;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     position: fixed;
     margin: 0%;
+    width: 1239px;
 }
 
 .topnav .index {
@@ -48,24 +48,27 @@ body {
     padding-top: 20%;
     padding-bottom: 20%;
     background-attachment: fixed;
+    width: 1239px;
 }
 
 .wrap {
-    padding: 6% 6% 6% 6%;
+    padding: 6%;
     display: flex;
-    justify-content: space-between;
+    width: 1091px;
 }
 
 .services {
     background-image: url("flower.png");
     background-position: center;
-    padding: 7.8% 4% 7.8% 4%;
+    padding: 7% 2% 7% 2%;
+    margin-right: 8%;
     color: white;
-    width: 23%;
+    width: 27%;
+    max-height: 429px;
 }
 
 .img {
-    
+    max-width: 659px;
 }
 
 .test {
@@ -73,29 +76,29 @@ body {
     font-size: 30px;
     text-align: center;
     padding-bottom: 6%;
+    width: 1239px;
 }
 
 .test .leftar {
     float: left;
-    padding-top: 9%;
+    padding-top: 6%;
     padding-left: 8%;
 }
 
 .test .rightar {
     float: right;
-    padding-top: 9%;
+    padding-top: 6%;
     padding-right: 8%;    
 }
 
 .gallery {
     background-image: url("image2.png");
-    background-attachment: fixed;
-    background-size: contain;
     height: 685px;
     background-repeat: no-repeat;
-    background-size: cover;
     margin: 6%;
     display: flex;
+    background-size: 1164px;
+    background-attachment: fixed;
 }
 
 .gallery .block {
@@ -132,19 +135,23 @@ body {
 }
 
 .add {
-    background-image: url("flower.png");
-    color: white;
-    padding: 5%;
-    margin: 6%;
-    margin-bottom: 3%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: space-between;
-    font-size: smaller;
-    padding-left: 8%;
-    padding-right: 8%;
+background-image: url("flower.png");
+  color: white;
+  padding: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+  margin: 6%;
+    margin-bottom: 6%;
+  margin-bottom: 3%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  font-size: smaller;
+  padding-left: 8%;
+  padding-right: 8%;
+  width: 893px;
 }
 .solid {
     margin: 1%;
